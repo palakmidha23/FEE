@@ -1,1 +1,94 @@
 
+/* Reset some default browser styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #007bff; /* Attractive blue */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main Container Styles */
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  /* Widget Styles */
+  .widget {
+    background-color: #fff; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  /* Input Styles */
+  input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 12px; /* Larger input padding */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 12px 24px; /* Larger button padding */
+    background-color: #007bff; /* Attractive blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Delete Button Styles */
+  .delete-button {
+    color: #ff4d4d; /* Reddish color for delete button */
+    cursor: pointer;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Image Styles */
+  .image-container {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .widget {
+      width: 100%;
+    }
+  }
+  
